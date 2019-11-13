@@ -13,9 +13,11 @@ def take_a_number(array, string)
   name = name.collect
   puts "#{name} you are number #{number}" 
 end
-def now_serving
+def now_serving 
+  if 
   next_person = next_person.chomp
   puts "the line is currently: 1.#{name} 2. #{next_person}"
   elsif next_person = 0 
-  puts 
+  puts "There is nobody waiting to be served!"
+end 
   
