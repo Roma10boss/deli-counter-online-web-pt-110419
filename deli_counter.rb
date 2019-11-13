@@ -15,5 +15,7 @@ def take_a_number(array, string)
 end
 def now_serving
   next_person = next_person.chomp
-  puts "the line is currently: 1.#{na}#{next_person}"
+  puts "the line is currently: 1.#{name} 2. #{next_person}"
+  elsif next_person = 0 
+  puts 
   
